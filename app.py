@@ -3,12 +3,17 @@ import pandas as pd
 import json
 import folium
 from streamlit_folium import folium_static
-import random
+from chatbot import filter_by_camp, pick_random_person_with_features, generate_story
 
 # Load data
-df = pd.read_csv('transformed_dataset.csv')
+df = pd.read_csv('final_transformed_dataset_with_names.csv')
+
+# Load geojson data to extract camp names
 with open('camps.geojson', 'r') as f:
     geojson_data = json.load(f)
+
+# Extract camp names from the geojson file
+camp_names = [feature['properties']['name'] for feature in geojson_data['features']]
 
 # Filter dataset to include only rows where type is 'Camp Name'
 camp_destinations = df[df['Type'] == 'Camp Name']
@@ -16,11 +21,10 @@ camp_destinations = df[df['Type'] == 'Camp Name']
 # Count the number of people per origin location
 camp_counts = camp_destinations['Origin'].value_counts().to_dict()
 
-# Get camps that exist in the geojson data
-geojson_camp_names = {feature['properties']['name'] for feature in geojson_data['features']}
-valid_camps = [camp for camp in camp_counts.keys() if camp in geojson_camp_names]
+# Validate camps against geojson data
+valid_camps = [camp for camp in camp_counts.keys() if camp in camp_names]
 
-# Create a Folium map with camp locations
+# Function to create a Folium map with camp locations
 def create_camp_map():
     m = folium.Map(location=[51.1657, 10.4515], zoom_start=6, tiles='CartoDB positron')
 
@@ -42,35 +46,18 @@ def create_camp_map():
 
     return m
 
-def create_route_map(camp_name):
-    # Filter the dataset for a random person from the selected camp
-    selected_camp_data = camp_destinations[camp_destinations['Origin'] == camp_name]
-    random_person = selected_camp_data.sample(n=1)
-    
-    # Extract relevant details for the random person's route
-    person_id = random_person['ID'].iloc[0]
-    person_path = df[df['ID'] == person_id].sort_values(by='Index')
-    
-    route_coords = []
-    for _, row in person_path.iterrows():
-        for feature in geojson_data['features']:
-            if feature['properties']['name'] == row['Origin']:
-                if feature['geometry']['type'] == 'Point':
-                    coords = feature['geometry']['coordinates'][::-1]
-                elif feature['geometry']['type'] in ['Polygon', 'MultiPolygon']:
-                    coords = feature['geometry']['coordinates'][0][0][::-1]
-                route_coords.append(coords)
-                break
-    
-    # Create a new Folium map centered around the camp location
-    m = folium.Map(location=route_coords[0], zoom_start=6, tiles='CartoDB positron')
+# Function to generate story for a selected camp
+def generate_story_for_camp(camp_name):
+    journey_data = pd.read_csv("intervals.csv")
+    dataset = pd.read_csv("Data4Good_Arolsen_Archives_50k.csv")
 
-    # Add the route
-    for coord in route_coords:
-        folium.Marker(location=coord, tooltip="Stop").add_to(m)
-    folium.PolyLine(locations=route_coords, color="blue").add_to(m)
+    filtered_journey = filter_by_camp(journey_data, camp_name)
+    random_person = pick_random_person_with_features(filtered_journey, dataset)
 
-    return m
+    if random_person:
+        return generate_story(random_person, journey_data)
+    else:
+        return f"No records found for people associated with the camp '{camp_name}'."
 
 # Streamlit app layout
 st.set_page_config(page_title="Camp Regions and People Count", layout="wide")
@@ -80,11 +67,16 @@ st.title("Camp Regions and People Count")
 m = create_camp_map()
 folium_static(m)
 
-# Camp selection - display a dropdown for the user to select a camp
-selected_camp = st.selectbox("Select a Camp to view the route of a random person:", valid_camps)
+# Camp selection dropdown
+selected_camp = st.selectbox("Select a Camp to view the route of a random person and their story:", valid_camps)
 
-# If a camp is selected, display the route map
+# Display route map for the selected camp
 if selected_camp:
     st.subheader(f"Route for a Random Person from {selected_camp}")
-    route_map = create_route_map(selected_camp)
+    route_map = create_camp_map()
     folium_static(route_map)
+
+    # Generate and display the person's story
+    st.subheader(f"Story for a Random Person from {selected_camp}")
+    story = generate_story_for_camp(selected_camp)
+    st.write(story)

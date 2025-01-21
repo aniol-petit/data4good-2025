@@ -1,19 +1,14 @@
 import pandas as pd
-import random
 
 # Load the datasets
 try:
     dataset = pd.read_csv("Data4Good_Arolsen_Archives_50k.csv")
-    journey_data = pd.read_csv("/mnt/c/Users/Pol/Downloads/intervals.csv")
+    journey_data = pd.read_csv("intervals.csv")
 except Exception as e:
     print(f"Error loading datasets: {e}")
     exit()
 
-# Fill missing values with "Unknown"
-dataset = dataset.fillna("Unknown")
-journey_data = journey_data.fillna("Unknown")
-
-# Normalize text columns for consistency
+# Normalize the text columns for consistency
 def normalize_text(df, columns):
     for col in columns:
         if col in df.columns:
@@ -22,19 +17,6 @@ def normalize_text(df, columns):
 
 dataset = normalize_text(dataset, ['First Name', 'Last_Name', 'Father (Vater - Eltern)', 'Mother (Mutter - Eltern)', 'Birthdate (Geb)', 'Birth Place', 'Nationality'])
 journey_data = normalize_text(journey_data, ['First Name', 'Last Name', 'Origin', 'Dest', 'Nationality', 'Religion'])
-
-# Replace known synonyms or common noise in the Religion column
-religion_replacements = {
-    'judieeh': 'jewish',
-    'jewishüdtsch': 'jewish',
-    'moslem': 'muslim',
-    'roman catholic': 'catholic',
-    'orthodox christian': 'orthodox',
-    'evangelical christian': 'evangelical',
-}
-
-dataset['Religion'] = dataset['Religion'].replace(religion_replacements)
-journey_data['Religion'] = journey_data['Religion'].replace(religion_replacements)
 
 # Function to filter dataset by camp origin
 def filter_by_camp(journey_data, camp):
@@ -73,48 +55,60 @@ def pick_random_person_with_features(filtered_data, dataset):
     print("No candidates with 5 or more features. Selecting randomly.")
     return candidates.sample(1).iloc[0].to_dict() if not candidates.empty else None
 
-# Generate a story based on a person's record
-# Generate a story based on a person's record
 def generate_story(record, journey_data):
     if not record:
         return "No person found for the given location."
 
-    first_name = record.get('First Name', 'Unknown').title()
-    last_name = record.get('Last_Name', 'Unknown').title()
+    def safe_title(value):
+        """Convert value to string and apply title-case if it's not 'Unknown'."""
+        return str(value).title() if pd.notna(value) and value != "Unknown" else "Unknown"
+
+    first_name = safe_title(record.get('First Name', 'Unknown'))
+    last_name = safe_title(record.get('Last_Name', 'Unknown'))
 
     # Opening statement
     opening = f"{first_name} {last_name}'s story is one of resilience and human experience."
 
     # Family details
     family_details = []
-    if 'Father (Vater - Eltern)' in record and record['Father (Vater - Eltern)'] != "Unknown":
-        family_details.append(f"Their father was {record['Father (Vater - Eltern)'].title()}")
-    if 'Mother (Mutter - Eltern)' in record and record['Mother (Mutter - Eltern)'] != "Unknown":
-        family_details.append(f"and their mother was {record['Mother (Mutter - Eltern)'].title()}")
+    if 'Father (Vater - Eltern)' in record:
+        father = safe_title(record['Father (Vater - Eltern)'])
+        if father != "Unknown":
+            family_details.append(f"Their father was {father}")
+
+    if 'Mother (Mutter - Eltern)' in record:
+        mother = safe_title(record['Mother (Mutter - Eltern)'])
+        if mother != "Unknown":
+            family_details.append(f"and their mother was {mother}")
+
     family_details = " ".join(family_details) + "." if family_details else "Family details are not available."
 
     # Birth details
     birth_details = []
-    if 'Birthdate (Geb)' in record and record['Birthdate (Geb)'] != "Unknown":
-        birth_details.append(f"They were born on {record['Birthdate (Geb)']}")
-    if 'Birth Place' in record and record['Birth Place'] != "Unknown":
-        birth_details.append(f"in {record['Birth Place'].title()}")
+    birth_date = safe_title(record.get('Birthdate (Geb)', 'Unknown'))
+    birth_place = safe_title(record.get('Birth Place', 'Unknown'))
+    if birth_date != "Unknown":
+        birth_details.append(f"They were born on {birth_date}")
+    if birth_place != "Unknown":
+        birth_details.append(f"in {birth_place}")
+
     birth_details = " and ".join(birth_details) + "." if birth_details else "Birth details are not available."
 
     # Nationality
-    nationality = record.get('Nationality', 'unknown').title()
+    nationality = safe_title(record.get('Nationality', 'Unknown'))
     nationality_statement = f"They were of {nationality} nationality." if nationality != "Unknown" else "Nationality details are not available."
 
     # Religion
-    religion = record.get('Religion', 'unknown').title()
+    religion = safe_title(record.get('Religion', 'Unknown'))
     religion_statement = f"They practiced the {religion} faith." if religion != "Unknown" else "Religion details are not available."
 
     # Journey details with varied connectors
     journey_details = []
     journey_records = journey_data[
-        (journey_data['First Name'] == record['First Name']) &
+        (journey_data['First Name'] == record['First Name']) & 
         (journey_data['Last Name'] == record['Last_Name'])
     ]
+
     if not journey_records.empty:
         journey_details.append("Their recorded movements paint a picture of a life uprooted by the events of the war.")
         transitions = [
@@ -125,11 +119,10 @@ def generate_story(record, journey_data):
             "Finally, they arrived at"
         ]
         for i, (_, row) in enumerate(journey_records.iterrows()):
-            origin = row['Origin'].title() if row['Origin'] != "Unknown" else "an unknown location"
-            destination = row['Dest'].title() if row['Dest'] != "Unknown" else "an unknown location"
-            interval = row['Interval'] if row['Interval'] != "Unknown" else "an unknown period"
+            origin = safe_title(row['Origin'])
+            destination = safe_title(row['Dest'])
+            interval = safe_title(row['Interval'])
 
-            # Use varied transitions
             transition = transitions[i % len(transitions)] if i < len(journey_records) - 1 else "Ultimately, they reached"
             journey_details.append(f"{transition} {destination} from {origin} during {interval}.")
     else:
@@ -149,16 +142,3 @@ def generate_story(record, journey_data):
         closing,
     ])
     return story
-
-
-# Main program
-camp_name = input("Enter a camp name: ")
-filtered_journey = filter_by_camp(journey_data, camp_name)
-random_person = pick_random_person_with_features(filtered_journey, dataset)
-
-if random_person:
-    story = generate_story(random_person, journey_data)
-    print("\nGenerated Story:")
-    print(story)
-else:
-    print(f"No records found for people associated with the camp '{camp_name}'.")
