@@ -3,7 +3,7 @@ import random
 
 # Load the datasets
 try:
-    dataset = pd.read_csv("/mnt/c/Users/Pol/Downloads/Data4Good_Arolsen_Archives_50k.csv")
+    dataset = pd.read_csv("Data4Good_Arolsen_Archives_50k.csv")
     journey_data = pd.read_csv("/mnt/c/Users/Pol/Downloads/intervals.csv")
 except Exception as e:
     print(f"Error loading datasets: {e}")
