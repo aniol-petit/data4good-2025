@@ -19,7 +19,7 @@ camp_names = [feature['properties']['name'] for feature in geojson_data['feature
 camp_destinations = df[df['Type'] == 'Camp Name']
 
 # Count the number of people per origin location
-camp_counts = camp_destinations['Origin'].value_counts().to_dict()
+camp_counts = camp_destinations['Dest'].value_counts().to_dict()
 
 # Validate camps against geojson data
 valid_camps = [camp for camp in camp_counts.keys() if camp in camp_names]
