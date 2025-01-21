@@ -53,21 +53,53 @@ def find_coordinates(location):
 # Function to create a Folium map with camp locations
 def create_camp_map():
     m = folium.Map(location=[51.1657, 10.4515], zoom_start=6, tiles='CartoDB positron')
+
+    # Function to determine marker color based on the number of people
+    def get_marker_color(count):
+        if count >= 10000:
+            return "darkpurple"
+        elif count >= 5000:
+            return "red"
+        elif count >= 1000:
+            return "orange"
+        else:
+            return "lightblue"
+
+    # Add markers for each camp with corresponding colors
     for feature in geojson_data['features']:
         location_name = feature['properties']['name']
         count = camp_counts.get(location_name, 0)
-        folium.GeoJson(
-            feature,
-            name=location_name,
-            style_function=lambda feature, count=count: {
-                'fillColor': '#3186cc' if count > 0 else '#cccccc',
-                'color': 'black',
-                'weight': 1,
-                'fillOpacity': 0.6 if count > 0 else 0.3
-            },
-            tooltip=folium.Tooltip(f"{location_name}: {count} people")
+        color = get_marker_color(count)
+
+        folium.Marker(
+            location=feature['geometry']['coordinates'][::-1],  # Reverse coordinates for folium
+            popup=folium.Popup(f"{location_name}: {count} people", parse_html=True),
+            icon=folium.Icon(color=color, icon="info-sign")
         ).add_to(m)
+
+    # Add a legend to the map (positioned on the left)
+    legend_html = '''
+    <div style="
+        position: fixed; 
+        bottom: 50px; left: 50px; width: 250px; height: 150px; 
+        background-color: rgba(255, 255, 255, 0.85); 
+        z-index:9999; font-size:14px;
+        border-radius: 10px; padding: 10px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    ">
+        <h4><b>Camp Size Legend</b></h4>
+        <p><i class="fa fa-map-marker fa-2x" style="color:darkpurple"></i> 10,000+ people</p>
+        <p><i class="fa fa-map-marker fa-2x" style="color:red"></i> 5,000 - 9,999 people</p>
+        <p><i class="fa fa-map-marker fa-2x" style="color:orange"></i> 1,000 - 4,999 people</p>
+        <p><i class="fa fa-map-marker fa-2x" style="color:lightblue"></i> 0 - 999 people</p>
+    </div>
+    '''
+    m.get_root().html.add_child(folium.Element(legend_html))
+
     return m
+
+
+
 
 # Function to generate story for a selected camp
 def generate_story_for_camp(camp_name):
@@ -202,14 +234,74 @@ def create_person_route_map(person_data):
 
 # Streamlit app layout
 st.set_page_config(page_title="Camp Regions and People Count", layout="wide")
-st.title("Camp Regions and People Count")
-m = create_camp_map()
-folium_static(m)
-selected_camp = st.selectbox("Select a Camp to view the route of a person and their story:", valid_camps)
-if selected_camp:
-    st.subheader(f"Route of a vicitm from {selected_camp}")
-    story, person_data = generate_story_for_camp(selected_camp)
-    st.write(story)
-    if person_data is not None:
-        route_map = create_person_route_map(person_data)
-        folium_static(route_map)
+st.markdown("<h1 style='text-align: center;'>Camp Regions and People Count</h1>", unsafe_allow_html=True)
+
+# Use Streamlit columns to divide the page layout
+col1, col2 = st.columns([4, 1], gap="medium")  # Adjust column spacing
+
+with col1:
+    # Display the map in the first column
+    m = folium.Map(location=[51.1657, 10.4515], zoom_start=6, tiles='CartoDB positron')
+
+    # Function to determine marker color based on the number of people
+    def get_marker_color(count):
+        if count >= 10000:
+            return "purple"  # Changed dark purple to a more visible purple
+        elif count >= 5000:
+            return "red"
+        elif count >= 1000:
+            return "orange"
+        else:
+            return "lightblue"
+
+    # Add markers with tooltips for hover info
+    for feature in geojson_data['features']:
+        location_name = feature['properties']['name']
+        count = camp_counts.get(location_name, 0)
+        color = get_marker_color(count)
+
+        folium.Marker(
+            location=feature['geometry']['coordinates'][::-1],  # Reverse coordinates for folium
+            tooltip=f"{location_name}: {count} people",  # Tooltip for hover info
+            icon=folium.Icon(color=color, icon="info-sign")
+        ).add_to(m)
+
+    folium_static(m)
+
+    # Dropdown for camp selection and route display
+    selected_camp = st.selectbox("Select a Camp to view the route of a person and their story:", valid_camps)
+    if selected_camp:
+        st.subheader(f"Route of a victim from {selected_camp}")
+        story, person_data = generate_story_for_camp(selected_camp)
+        st.write(story)
+        if person_data is not None:
+            route_map = create_person_route_map(person_data)
+            folium_static(route_map)
+
+with col2:
+    # Display the legend in the second column, centered
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <h3>Legend</h3>
+            <ul style="list-style-type:none; padding: 0; font-size: 18px;">
+                <li><span style="display:inline-block; width: 20px; height: 20px; background-color: purple; margin-right: 10px; border-radius: 3px;"></span> 10,000+ people</li>
+                <li><span style="display:inline-block; width: 20px; height: 20px; background-color: red; margin-right: 10px; border-radius: 3px;"></span> 5,000-9,999 people</li>
+                <li><span style="display:inline-block; width: 20px; height: 20px; background-color: orange; margin-right: 10px; border-radius: 3px;"></span> 1,000-4,999 people</li>
+                <li><span style="display:inline-block; width: 20px; height: 20px; background-color: lightblue; margin-right: 10px; border-radius: 3px;"></span> 0-999 people</li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True  # Allow HTML for custom legend styles
+    )
+
+# Center all content
+st.markdown("""
+    <style>
+        .block-container {
+            max-width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+""", unsafe_allow_html=True)
