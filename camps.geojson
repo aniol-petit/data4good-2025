@@ -1,0 +1,186 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Auschwitz"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.2033, 50.0359]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Stutthof"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.1422, 54.3233]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Bergen-Belsen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [9.9070, 52.7472]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Gross-Rosen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [16.4167, 50.9939]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Buchenwald"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.2468, 51.0229]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Dachau"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.4745, 48.2672]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Theresienstadt"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.1511, 50.5136]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Mauthausen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.5000, 48.2500]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Sachsenhausen"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.2361, 52.7503]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Ravensbrück"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.1833, 53.2000]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Westerbork"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.6083, 52.9194]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Feldafing"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.2961, 47.9444]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Zeilsheim"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.5167, 50.0833]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Föhrenwald"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.4167, 48.0667]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Plaszow"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [19.9783, 50.0306]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Landsberg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [10.8667, 48.0500]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Eschwege"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [9.9833, 51.1833]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Majdanek"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [22.5750, 51.2306]
+        }
+      }
+    ]
+  }
+  
