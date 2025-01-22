@@ -1,0 +1,3620 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d0" for="node" attr.name="name" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="1">
+      <data key="d0">Mieczyslawa Marianna KIERZKOWSKA</data>
+    </node>
+    <node id="Wiekowo">
+      <data key="d1">location</data>
+    </node>
+    <node id="Weser">
+      <data key="d1">location</data>
+    </node>
+    <node id="Berlin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gniezno">
+      <data key="d1">location</data>
+    </node>
+    <node id="2">
+      <data key="d0">Pesia Pese GRUER</data>
+    </node>
+    <node id="Laszczow Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Laszczow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Laszozow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Cypern">
+      <data key="d1">location</data>
+    </node>
+    <node id="3">
+      <data key="d0">Oskar Kurz</data>
+    </node>
+    <node id="Wien">
+      <data key="d1">location</data>
+    </node>
+    <node id="Monowitz / Auschwitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="4">
+      <data key="d0">Moses SPRITZR</data>
+    </node>
+    <node id="Biala Österr">
+      <data key="d1">location</data>
+    </node>
+    <node id="Amsterdam">
+      <data key="d1">location</data>
+    </node>
+    <node id="Angouleme">
+      <data key="d1">location</data>
+    </node>
+    <node id="( Gefängn">
+      <data key="d1">location</data>
+    </node>
+    <node id="Normades">
+      <data key="d1">location</data>
+    </node>
+    <node id="Blechhammer">
+      <data key="d1">location</data>
+    </node>
+    <node id="5">
+      <data key="d0">Mosche ROSENBERG</data>
+    </node>
+    <node id="Warschau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Warschau , Dzielna">
+      <data key="d1">location</data>
+    </node>
+    <node id="6">
+      <data key="d0">LANKISCH Arthur HOERNITZVON</data>
+    </node>
+    <node id="Einsiedl Böhmen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Prag">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sachsenhausen">
+      <data key="d1">location</data>
+    </node>
+    <node id="7">
+      <data key="d0">Francesco CHETROLA</data>
+    </node>
+    <node id="Rofrano Salerno">
+      <data key="d1">location</data>
+    </node>
+    <node id="Tbe">
+      <data key="d1">location</data>
+    </node>
+    <node id="8">
+      <data key="d0">Giuseppe RAIMOND</data>
+    </node>
+    <node id="S Cataldo">
+      <data key="d1">location</data>
+    </node>
+    <node id="Essen">
+      <data key="d1">location</data>
+    </node>
+    <node id="9">
+      <data key="d0">Mirjan ELKAN</data>
+    </node>
+    <node id="Pabianice">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lods">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Berlin - Nou - Kölln">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ravensbrück">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schweden">
+      <data key="d1">location</data>
+    </node>
+    <node id="Israel">
+      <data key="d1">location</data>
+    </node>
+    <node id="10">
+      <data key="d0">Laja ROZENAY</data>
+    </node>
+    <node id="Sulejow Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="La Cre">
+      <data key="d1">location</data>
+    </node>
+    <node id="Suterene">
+      <data key="d1">location</data>
+    </node>
+    <node id="11">
+      <data key="d0">Bronja SCHR</data>
+    </node>
+    <node id="Lodz Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lodz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bergen - Belsen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Salzwedel">
+      <data key="d1">location</data>
+    </node>
+    <node id="Leipheim">
+      <data key="d1">location</data>
+    </node>
+    <node id="Felda">
+      <data key="d1">location</data>
+    </node>
+    <node id="Canada">
+      <data key="d1">location</data>
+    </node>
+    <node id="12">
+      <data key="d0">Vornameunbek NIKOLAENKO</data>
+    </node>
+    <node id="unbek">
+      <data key="d1">location</data>
+    </node>
+    <node id="Augsburg - Haunstetten">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bayern">
+      <data key="d1">location</data>
+    </node>
+    <node id="13">
+      <data key="d0">Chava KORNEwa</data>
+    </node>
+    <node id="Rzeszon Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Tarnow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bassdorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sochnouth n.Israel">
+      <data key="d1">location</data>
+    </node>
+    <node id="14">
+      <data key="d0">Joanna Jamina POTAS</data>
+    </node>
+    <node id="Jaworze Gorne">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lentersheim">
+      <data key="d1">location</data>
+    </node>
+    <node id="15">
+      <data key="d0">Ryve DISIPL</data>
+    </node>
+    <node id="Wilna">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wiina">
+      <data key="d1">location</data>
+    </node>
+    <node id="Loca ZAL">
+      <data key="d1">location</data>
+    </node>
+    <node id="Neustadt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hospital">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ramlösa Sohweden">
+      <data key="d1">location</data>
+    </node>
+    <node id="16">
+      <data key="d0">Zofia WITKOWSKA</data>
+    </node>
+    <node id="Zalesie">
+      <data key="d1">location</data>
+    </node>
+    <node id="Niedere">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lippstadt">
+      <data key="d1">location</data>
+    </node>
+    <node id="17">
+      <data key="d0">Rezso BACK</data>
+    </node>
+    <node id="Budapest">
+      <data key="d1">location</data>
+    </node>
+    <node id="Roechnitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="18">
+      <data key="d0">Johan Jan BARANSKI</data>
+    </node>
+    <node id="Godzischewy">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stalag V B">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stalag V C">
+      <data key="d1">location</data>
+    </node>
+    <node id="19">
+      <data key="d0">Salomon JAKUBOVITS</data>
+    </node>
+    <node id="Unknown">
+      <data key="d1">location</data>
+    </node>
+    <node id="20">
+      <data key="d0">Jozef GRYCAN</data>
+    </node>
+    <node id="Wierzbowiec">
+      <data key="d1">location</data>
+    </node>
+    <node id="Augustdorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="England">
+      <data key="d1">location</data>
+    </node>
+    <node id="21">
+      <data key="d0">Anna LAX</data>
+    </node>
+    <node id="Majesniklovar">
+      <data key="d1">location</data>
+    </node>
+    <node id="22">
+      <data key="d0">Grote Margarete SEIDFUDEE</data>
+    </node>
+    <node id="Briog">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ostlinde">
+      <data key="d1">location</data>
+    </node>
+    <node id="23">
+      <data key="d0">Josef RUBINOWITZ</data>
+    </node>
+    <node id="Gleiwitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="24">
+      <data key="d0">Auguste FRANZ</data>
+    </node>
+    <node id="Rudau Krs Ortels burg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ortels burg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Seliggen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bialystok">
+      <data key="d1">location</data>
+    </node>
+    <node id="Brest - Litowsk">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wch . Ravensbrück">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wolkenburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Weiden">
+      <data key="d1">location</data>
+    </node>
+    <node id="25">
+      <data key="d0">Mozes ABRAHAM ROTHENBERG</data>
+    </node>
+    <node id="Radom">
+      <data key="d1">location</data>
+    </node>
+    <node id="Senterpart">
+      <data key="d1">location</data>
+    </node>
+    <node id="26">
+      <data key="d0">Adolf ISAK</data>
+    </node>
+    <node id="Vylok">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dittrau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Batschkertes">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stanislawow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Worochta">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hedes Holon">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gabersee">
+      <data key="d1">location</data>
+    </node>
+    <node id="27">
+      <data key="d0">Sabina DOBRZYNSKA</data>
+    </node>
+    <node id="Moczydlow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Nieperwiese">
+      <data key="d1">location</data>
+    </node>
+    <node id="Greifenhagen">
+      <data key="d1">location</data>
+    </node>
+    <node id="28">
+      <data key="d0">Andrea BRUSIGHIN</data>
+    </node>
+    <node id="Italien">
+      <data key="d1">location</data>
+    </node>
+    <node id="Leonberg / Natzweiler">
+      <data key="d1">location</data>
+    </node>
+    <node id="29">
+      <data key="d0">Judith GOLDSTÜCK</data>
+    </node>
+    <node id="Lodz Radwiliskis">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schaulen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stutthof">
+      <data key="d1">location</data>
+    </node>
+    <node id="30">
+      <data key="d0">Raffaele SORRENTINO</data>
+    </node>
+    <node id="La Spezia">
+      <data key="d1">location</data>
+    </node>
+    <node id="Vernazza">
+      <data key="d1">location</data>
+    </node>
+    <node id="Modena">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bad">
+      <data key="d1">location</data>
+    </node>
+    <node id="Canstatt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stoccaroa">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stuttgart">
+      <data key="d1">location</data>
+    </node>
+    <node id="31">
+      <data key="d0">Masha GREENBAUM</data>
+    </node>
+    <node id="Kowno Lit">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kowno">
+      <data key="d1">location</data>
+    </node>
+    <node id="Narva / Estland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Langenhorn , Oxenzoll">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hamburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bergen - elsen">
+      <data key="d1">location</data>
+    </node>
+    <node id="32">
+      <data key="d0">Holan Janin GAFIS</data>
+    </node>
+    <node id="Uln">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schlusogocots">
+      <data key="d1">location</data>
+    </node>
+    <node id="Untorl">
+      <data key="d1">location</data>
+    </node>
+    <node id="33">
+      <data key="d0">Günther RÖTTGEN</data>
+    </node>
+    <node id="Wattenscheid">
+      <data key="d1">location</data>
+    </node>
+    <node id="Zwolle / Holland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Oranienburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Westerbork / Holl .">
+      <data key="d1">location</data>
+    </node>
+    <node id="34">
+      <data key="d0">Noma VSCHREIBERGER</data>
+    </node>
+    <node id="Sabyalowitz Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sydlowieo">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sydlowiec">
+      <data key="d1">location</data>
+    </node>
+    <node id="Czenstochau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Feldafing">
+      <data key="d1">location</data>
+    </node>
+    <node id="35">
+      <data key="d0">Bronislaw KOLODZIEJ</data>
+    </node>
+    <node id="Radwan Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Radwan">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sohwerin , Lübeck , Schweden">
+      <data key="d1">location</data>
+    </node>
+    <node id="Frankreich">
+      <data key="d1">location</data>
+    </node>
+    <node id="36">
+      <data key="d0">Salo SCHALSCHA</data>
+    </node>
+    <node id="Beuthen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Breslau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwits">
+      <data key="d1">location</data>
+    </node>
+    <node id="37">
+      <data key="d0">Samuel ROSNER</data>
+    </node>
+    <node id="Czudin Österr">
+      <data key="d1">location</data>
+    </node>
+    <node id="Buchenwald">
+      <data key="d1">location</data>
+    </node>
+    <node id="38">
+      <data key="d0">Mieczyslaw SMIECHOWSKI</data>
+    </node>
+    <node id="Warszawa">
+      <data key="d1">location</data>
+    </node>
+    <node id="Deutschland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dulag in LinzI">
+      <data key="d1">location</data>
+    </node>
+    <node id="-">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schöneberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="39">
+      <data key="d0">Sioma CUKIERNIK</data>
+    </node>
+    <node id="Wilno Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wilno / Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kaiserwald">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stutthoff">
+      <data key="d1">location</data>
+    </node>
+    <node id="Fellafing">
+      <data key="d1">location</data>
+    </node>
+    <node id="40">
+      <data key="d0">Chana WEBER</data>
+    </node>
+    <node id="Wilno">
+      <data key="d1">location</data>
+    </node>
+    <node id="Riga">
+      <data key="d1">location</data>
+    </node>
+    <node id="Torun">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bamberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="München , Klemens">
+      <data key="d1">location</data>
+    </node>
+    <node id="41">
+      <data key="d0">Minna GOLDBLATT</data>
+    </node>
+    <node id="Tauroggen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschw">
+      <data key="d1">location</data>
+    </node>
+    <node id="42">
+      <data key="d0">Dora UNGLICK</data>
+    </node>
+    <node id="Plonsk Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Leipzig">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bayreuth">
+      <data key="d1">location</data>
+    </node>
+    <node id="43">
+      <data key="d0">GER Chane FORSCHLEI</data>
+    </node>
+    <node id="Bendzin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Parschnitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Föhrenwald">
+      <data key="d1">location</data>
+    </node>
+    <node id="44">
+      <data key="d0">Elka FUCHS</data>
+    </node>
+    <node id="45">
+      <data key="d0">Pacifico SPIZZICHINO</data>
+    </node>
+    <node id="Rom">
+      <data key="d1">location</data>
+    </node>
+    <node id="Rom n.Regina Coeli">
+      <data key="d1">location</data>
+    </node>
+    <node id="Fossoli di Carpi">
+      <data key="d1">location</data>
+    </node>
+    <node id="46">
+      <data key="d0">Giusepps Josip PERUSCO</data>
+    </node>
+    <node id="Peruska Jugosl Dighano d">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dighano d  Istria , Pola">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dachau">
+      <data key="d1">location</data>
+    </node>
+    <node id="47">
+      <data key="d0">Joanna nan</data>
+    </node>
+    <node id="Gdynia">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gdynia Orlowa">
+      <data key="d1">location</data>
+    </node>
+    <node id="Czestochowa">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wielinsko">
+      <data key="d1">location</data>
+    </node>
+    <node id="48">
+      <data key="d0">Isabella SCHWARTZ</data>
+    </node>
+    <node id="Kassa Ung">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bekescs">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ravensbrück , Berlin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ungarn">
+      <data key="d1">location</data>
+    </node>
+    <node id="49">
+      <data key="d0">Mihael KODRIC</data>
+    </node>
+    <node id="GorPrimosoa- Krsko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Selingenporten">
+      <data key="d1">location</data>
+    </node>
+    <node id="50">
+      <data key="d0">Halina OSIECKA</data>
+    </node>
+    <node id="Noikirch">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ostpreußen">
+      <data key="d1">location</data>
+    </node>
+    <node id="51">
+      <data key="d0">Glika CIDNICKA</data>
+    </node>
+    <node id="München">
+      <data key="d1">location</data>
+    </node>
+    <node id="Zbaszyn">
+      <data key="d1">location</data>
+    </node>
+    <node id="Birnbäumel">
+      <data key="d1">location</data>
+    </node>
+    <node id="Fürth /">
+      <data key="d1">location</data>
+    </node>
+    <node id="USA">
+      <data key="d1">location</data>
+    </node>
+    <node id="52">
+      <data key="d0">Frida PEROWORSKI</data>
+    </node>
+    <node id="Wiano">
+      <data key="d1">location</data>
+    </node>
+    <node id="53">
+      <data key="d0">Giuseppe PATRONK</data>
+    </node>
+    <node id="Torino">
+      <data key="d1">location</data>
+    </node>
+    <node id="54">
+      <data key="d0">Anna AGATA</data>
+    </node>
+    <node id="Petrymozy">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wala i.Drenkfurt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hajracz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Babcyn">
+      <data key="d1">location</data>
+    </node>
+    <node id="Rastenburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="55">
+      <data key="d0">Rechela CEMENT</data>
+    </node>
+    <node id="Zamosce Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Zamosz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bielefeld">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ziegenhain">
+      <data key="d1">location</data>
+    </node>
+    <node id="56">
+      <data key="d0">Maria POZNATSKA</data>
+    </node>
+    <node id="Veldzigs">
+      <data key="d1">location</data>
+    </node>
+    <node id="Biomaroke">
+      <data key="d1">location</data>
+    </node>
+    <node id="Marburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bove">
+      <data key="d1">location</data>
+    </node>
+    <node id="57">
+      <data key="d0">Jozefa PIESIAK</data>
+    </node>
+    <node id="Zelgoszcz">
+      <data key="d1">location</data>
+    </node>
+    <node id="58">
+      <data key="d0">Genia SCHMELZMANN</data>
+    </node>
+    <node id="Lo dz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Langbilau , Hundsfeld">
+      <data key="d1">location</data>
+    </node>
+    <node id="Rosen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Mauth . Berg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bels">
+      <data key="d1">location</data>
+    </node>
+    <node id="59">
+      <data key="d0">Alfred SCHLESINGER</data>
+    </node>
+    <node id="Hodonin Mähren">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gladbach">
+      <data key="d1">location</data>
+    </node>
+    <node id="Thereseist">
+      <data key="d1">location</data>
+    </node>
+    <node id="60">
+      <data key="d0">Veronika FRIEDMANN</data>
+    </node>
+    <node id="Ozd">
+      <data key="d1">location</data>
+    </node>
+    <node id="Putnok">
+      <data key="d1">location</data>
+    </node>
+    <node id="Diosgyor">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwits , Birkenau , Ziglg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Plaschow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kratzau">
+      <data key="d1">location</data>
+    </node>
+    <node id="61">
+      <data key="d0">Klara WIESENBERG</data>
+    </node>
+    <node id="Pecs Ung">
+      <data key="d1">location</data>
+    </node>
+    <node id="Neustadt b . Coburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gut Neuhof">
+      <data key="d1">location</data>
+    </node>
+    <node id="62">
+      <data key="d0">Sara RICHTER</data>
+    </node>
+    <node id="Bielitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kamien - Kassyrske">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bremerhaven">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lemberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Janow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schweidnitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="63">
+      <data key="d0">Anna LINDENBAUM</data>
+    </node>
+    <node id="Bychanz Bychawa Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Poniatow , Biala - Podlaska">
+      <data key="d1">location</data>
+    </node>
+    <node id="Majdanek">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kaufering">
+      <data key="d1">location</data>
+    </node>
+    <node id="Landsberg / Lech">
+      <data key="d1">location</data>
+    </node>
+    <node id="64">
+      <data key="d0">Jozefs KONECZNA</data>
+    </node>
+    <node id="Soltysy">
+      <data key="d1">location</data>
+    </node>
+    <node id="Neundorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bunzlau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Nowa Wies">
+      <data key="d1">location</data>
+    </node>
+    <node id="Boleslawiec">
+      <data key="d1">location</data>
+    </node>
+    <node id="65">
+      <data key="d0">Ignacy GURNIAK</data>
+    </node>
+    <node id="Kolonia Warpuny">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sorkwity">
+      <data key="d1">location</data>
+    </node>
+    <node id="66">
+      <data key="d0">Willem Gerardus WILLEMS</data>
+    </node>
+    <node id="Geleen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wieckrath / Wieckenrath / Heim">
+      <data key="d1">location</data>
+    </node>
+    <node id="67">
+      <data key="d0">Fela Gitla SCHWARZ</data>
+    </node>
+    <node id="Skerez Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschw.n.Harburg - Sasel">
+      <data key="d1">location</data>
+    </node>
+    <node id="68">
+      <data key="d0">Salomon ROSELAAR</data>
+    </node>
+    <node id="Westerbork">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sobibor">
+      <data key="d1">location</data>
+    </node>
+    <node id="69">
+      <data key="d0">Eleonora DOBRAS</data>
+    </node>
+    <node id="Brzezno">
+      <data key="d1">location</data>
+    </node>
+    <node id="Nebrowo Maly">
+      <data key="d1">location</data>
+    </node>
+    <node id="70">
+      <data key="d0">Rosa KRAFT</data>
+    </node>
+    <node id="Seret Rum">
+      <data key="d1">location</data>
+    </node>
+    <node id="Seret">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ukra">
+      <data key="d1">location</data>
+    </node>
+    <node id="ina Jurin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Jurin">
+      <data key="d1">location</data>
+    </node>
+    <node id="71">
+      <data key="d0">Doba DIAMANT</data>
+    </node>
+    <node id="Gorzkow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hasenhecko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kassel">
+      <data key="d1">location</data>
+    </node>
+    <node id="72">
+      <data key="d0">Sara ABISCH</data>
+    </node>
+    <node id="Rachow CSR">
+      <data key="d1">location</data>
+    </node>
+    <node id="Nierjesch">
+      <data key="d1">location</data>
+    </node>
+    <node id="Plaszow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwitz , Wisau">
+      <data key="d1">location</data>
+    </node>
+    <node id="73">
+      <data key="d0">Daniela Helena STASZCZYK</data>
+    </node>
+    <node id="Donenberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Warnow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wollin / Pommern">
+      <data key="d1">location</data>
+    </node>
+    <node id="74">
+      <data key="d0">Malwina Marcie LANGWEIL</data>
+    </node>
+    <node id="Boharavice CSR">
+      <data key="d1">location</data>
+    </node>
+    <node id="Boharavice">
+      <data key="d1">location</data>
+    </node>
+    <node id="75">
+      <data key="d0">Johanna FOCKENS</data>
+    </node>
+    <node id="Herzogenbus">
+      <data key="d1">location</data>
+    </node>
+    <node id="Vught / Holl">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ravensbrueck">
+      <data key="d1">location</data>
+    </node>
+    <node id="Malchow">
+      <data key="d1">location</data>
+    </node>
+    <node id="76">
+      <data key="d0">Rubin BENOWITZ</data>
+    </node>
+    <node id="Sokoly Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lapy">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bialeston">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bliczin - Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Landsberg /">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lech">
+      <data key="d1">location</data>
+    </node>
+    <node id="77">
+      <data key="d0">Wladyslaw CENDER</data>
+    </node>
+    <node id="Hohensalza , Inowroclaw">
+      <data key="d1">location</data>
+    </node>
+    <node id="Minsk">
+      <data key="d1">location</data>
+    </node>
+    <node id="78">
+      <data key="d0">Stanislaws SOCHALSKA</data>
+    </node>
+    <node id="Tupingen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Soltau">
+      <data key="d1">location</data>
+    </node>
+    <node id="79">
+      <data key="d0">Riwka KASPI</data>
+    </node>
+    <node id="Krasno Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="Krasno">
+      <data key="d1">location</data>
+    </node>
+    <node id="Eschwege">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ulm - Dornstadt">
+      <data key="d1">location</data>
+    </node>
+    <node id="80">
+      <data key="d0">Josef OWCZAR</data>
+    </node>
+    <node id="Vronsko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Vronoko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Natavoiler">
+      <data key="d1">location</data>
+    </node>
+    <node id="Koohon / Mosel">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sopt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hoilbronn">
+      <data key="d1">location</data>
+    </node>
+    <node id="81">
+      <data key="d0">Bruno Dr ZWIRNER</data>
+    </node>
+    <node id="Glatz">
+      <data key="d1">location</data>
+    </node>
+    <node id="82">
+      <data key="d0">Hella ZGORZENICKA</data>
+    </node>
+    <node id="83">
+      <data key="d0">Margarethe LEMBERG</data>
+    </node>
+    <node id="Ohlen odBreslau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Breslau / Theresienst">
+      <data key="d1">location</data>
+    </node>
+    <node id="84">
+      <data key="d0">Rosa KAUFMANN</data>
+    </node>
+    <node id="Flehingen bei Bretten">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bretten">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bayerthal">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gurs">
+      <data key="d1">location</data>
+    </node>
+    <node id="Rivesaltes">
+      <data key="d1">location</data>
+    </node>
+    <node id="Osten">
+      <data key="d1">location</data>
+    </node>
+    <node id="85">
+      <data key="d0">Natan KABAKOW</data>
+    </node>
+    <node id="Poniewierz">
+      <data key="d1">location</data>
+    </node>
+    <node id="86">
+      <data key="d0">Rosa BORZKOWSKA</data>
+    </node>
+    <node id="Habielica">
+      <data key="d1">location</data>
+    </node>
+    <node id="poln">
+      <data key="d1">location</data>
+    </node>
+    <node id="Belhatov">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bremen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Berg">
+      <data key="d1">location</data>
+    </node>
+    <node id="/">
+      <data key="d1">location</data>
+    </node>
+    <node id="Belsen">
+      <data key="d1">location</data>
+    </node>
+    <node id="87">
+      <data key="d0">Maria JAGAS</data>
+    </node>
+    <node id="Prodoll">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wildek">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schneidemühl">
+      <data key="d1">location</data>
+    </node>
+    <node id="Nigoldz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Klauzdorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="Mogilno">
+      <data key="d1">location</data>
+    </node>
+    <node id="88">
+      <data key="d0">Aaron ZEIBERMAN</data>
+    </node>
+    <node id="Pinsk">
+      <data key="d1">location</data>
+    </node>
+    <node id="89">
+      <data key="d0">PRA Guerrino DELDALPRA</data>
+    </node>
+    <node id="Piovene Rocchettat">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stalag">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wuppertal - Barmen , Schönbercher">
+      <data key="d1">location</data>
+    </node>
+    <node id="90">
+      <data key="d0">Felicia PIASECKI</data>
+    </node>
+    <node id="B PChmielnik">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gerafeld">
+      <data key="d1">location</data>
+    </node>
+    <node id="Fulda">
+      <data key="d1">location</data>
+    </node>
+    <node id="91">
+      <data key="d0">Adele COHN</data>
+    </node>
+    <node id="Harlau Raum">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bukarest">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ungarn , Österr.Deutschld .">
+      <data key="d1">location</data>
+    </node>
+    <node id="Italion">
+      <data key="d1">location</data>
+    </node>
+    <node id="Neapel">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sohiff">
+      <data key="d1">location</data>
+    </node>
+    <node id="92">
+      <data key="d0">Janis LIPSNELIPSNILIPSNIS</data>
+    </node>
+    <node id="Alounga Lipani Lettland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gren . Ausb">
+      <data key="d1">location</data>
+    </node>
+    <node id="Liepaja">
+      <data key="d1">location</data>
+    </node>
+    <node id="Salaspils">
+      <data key="d1">location</data>
+    </node>
+    <node id="93">
+      <data key="d0">August Karl NIEDERHAUS</data>
+    </node>
+    <node id="Osnabrück">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kempfraum Jassy / Rumänien">
+      <data key="d1">location</data>
+    </node>
+    <node id="Feldgericht">
+      <data key="d1">location</data>
+    </node>
+    <node id="Korpa">
+      <data key="d1">location</data>
+    </node>
+    <node id="kelhausenkaserne">
+      <data key="d1">location</data>
+    </node>
+    <node id="94">
+      <data key="d0">Rachel SKIEDEROVICS</data>
+    </node>
+    <node id="Schauel Wilkonir">
+      <data key="d1">location</data>
+    </node>
+    <node id="Mir">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stutt">
+      <data key="d1">location</data>
+    </node>
+    <node id="hof , Marionburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Elbingen">
+      <data key="d1">location</data>
+    </node>
+    <node id="China">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wilkomir">
+      <data key="d1">location</data>
+    </node>
+    <node id="95">
+      <data key="d0">Berek BRAFF</data>
+    </node>
+    <node id="Mlawe Poland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Germany">
+      <data key="d1">location</data>
+    </node>
+    <node id="96">
+      <data key="d0">Helena FRIEDMAN</data>
+    </node>
+    <node id="Abaujker Ung">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kosice">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kurbe">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dundage">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gloewen b.Oranienburg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Danzig">
+      <data key="d1">location</data>
+    </node>
+    <node id="Müritz">
+      <data key="d1">location</data>
+    </node>
+    <node id="97">
+      <data key="d0">Adam GRNBAUM</data>
+    </node>
+    <node id="Majdanek - Lublin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bu">
+      <data key="d1">location</data>
+    </node>
+    <node id="98">
+      <data key="d0">Dobbe deBRUIN</data>
+    </node>
+    <node id="Rotterdam Holland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Barneveld / llolland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Westerbork / Holland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwitz - Birkenau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Weisswasser / CS">
+      <data key="d1">location</data>
+    </node>
+    <node id="Holland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Palästina">
+      <data key="d1">location</data>
+    </node>
+    <node id="99">
+      <data key="d0">Bajle KOZAK</data>
+    </node>
+    <node id="100">
+      <data key="d0">Josef JACOBSOHN</data>
+    </node>
+    <node id="Neckar Bischofsheim">
+      <data key="d1">location</data>
+    </node>
+    <node id="Niedermendig">
+      <data key="d1">location</data>
+    </node>
+    <node id="Mayen">
+      <data key="d1">location</data>
+    </node>
+    <node id="101">
+      <data key="d0">Emile LEUDELANGE STEINER</data>
+    </node>
+    <node id="LEUDELINGEN Luxb">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ems">
+      <data key="d1">location</data>
+    </node>
+    <node id="102">
+      <data key="d0">Jozefa SKARBINSKA</data>
+    </node>
+    <node id="Kozlow Radom">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bafr.-Sahwed">
+      <data key="d1">location</data>
+    </node>
+    <node id="Siarishaan , Ronneby , Betna - Ecke">
+      <data key="d1">location</data>
+    </node>
+    <node id="Norrköping , Linköping">
+      <data key="d1">location</data>
+    </node>
+    <node id="Jönköping">
+      <data key="d1">location</data>
+    </node>
+    <node id="103">
+      <data key="d0">Saul Szaul KUSZNER</data>
+    </node>
+    <node id="Wasziliszki">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wasziliszk">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lida">
+      <data key="d1">location</data>
+    </node>
+    <node id="Walde">
+      <data key="d1">location</data>
+    </node>
+    <node id="dermichl d.Engun / Brüssel">
+      <data key="d1">location</data>
+    </node>
+    <node id="104">
+      <data key="d0">Sophie STERN</data>
+    </node>
+    <node id="105">
+      <data key="d0">Fiz CHAK KATZBisik</data>
+    </node>
+    <node id="Stradniapeca">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ung.u. Rumin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ordruf">
+      <data key="d1">location</data>
+    </node>
+    <node id="Krawinkel">
+      <data key="d1">location</data>
+    </node>
+    <node id="Minkisu">
+      <data key="d1">location</data>
+    </node>
+    <node id="106">
+      <data key="d0">Eda Ada ROZENSTOCK</data>
+    </node>
+    <node id="Wielicza Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="Mauthausen">
+      <data key="d1">location</data>
+    </node>
+    <node id="uns">
+      <data key="d1">location</data>
+    </node>
+    <node id="107">
+      <data key="d0">Adam MATUSZYNSKI</data>
+    </node>
+    <node id="Garbalin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dtschl">
+      <data key="d1">location</data>
+    </node>
+    <node id="Simer">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hilczaj , Bez . Koblenc">
+      <data key="d1">location</data>
+    </node>
+    <node id="108">
+      <data key="d0">Zeldad KACZEROWICZ</data>
+    </node>
+    <node id="Zambrow Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wysokie Maz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hochsom">
+      <data key="d1">location</data>
+    </node>
+    <node id="109">
+      <data key="d0">Jakob ROKACZ</data>
+    </node>
+    <node id="Lodz Polen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Podkowa Legna">
+      <data key="d1">location</data>
+    </node>
+    <node id="Warschen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Pruszkow">
+      <data key="d1">location</data>
+    </node>
+    <node id="110">
+      <data key="d0">GARFINKEL Edzia GRINBLAT</data>
+    </node>
+    <node id="Sosnowiec">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sosnowiec , Greben , Gabendorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="111">
+      <data key="d0">Martin LEBOWITS</data>
+    </node>
+    <node id="Kalin CSR">
+      <data key="d1">location</data>
+    </node>
+    <node id="dmezo Vasarhely">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bor Jugoslovia">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ampfing">
+      <data key="d1">location</data>
+    </node>
+    <node id="112">
+      <data key="d0">Witold Edwino KASHMERS</data>
+    </node>
+    <node id="113">
+      <data key="d0">Margareta BELHANDUS</data>
+    </node>
+    <node id="114">
+      <data key="d0">Ljuba JOVANOVICOVA</data>
+    </node>
+    <node id="Most Brüx">
+      <data key="d1">location</data>
+    </node>
+    <node id="Falkenau">
+      <data key="d1">location</data>
+    </node>
+    <node id="Karlovy Vary">
+      <data key="d1">location</data>
+    </node>
+    <node id="Cheb / Eger">
+      <data key="d1">location</data>
+    </node>
+    <node id="Aichach / Bayern">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schrobenhausen">
+      <data key="d1">location</data>
+    </node>
+    <node id="115">
+      <data key="d0">Ludwika KOTELA</data>
+    </node>
+    <node id="Ujsoly">
+      <data key="d1">location</data>
+    </node>
+    <node id="Korfantow">
+      <data key="d1">location</data>
+    </node>
+    <node id="Kietrza">
+      <data key="d1">location</data>
+    </node>
+    <node id="Dulag Raciborz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Pogrzebien">
+      <data key="d1">location</data>
+    </node>
+    <node id="Friedland">
+      <data key="d1">location</data>
+    </node>
+    <node id="Rajcza">
+      <data key="d1">location</data>
+    </node>
+    <node id="116">
+      <data key="d0">Anton KROTACIC</data>
+    </node>
+    <node id="unbekannt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Flossenbürg">
+      <data key="d1">location</data>
+    </node>
+    <node id="117">
+      <data key="d0">Hans LAMBERTZ</data>
+    </node>
+    <node id="Aachen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gerichts">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hamm">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wolfenbüttel">
+      <data key="d1">location</data>
+    </node>
+    <node id="IV Oberlangen">
+      <data key="d1">location</data>
+    </node>
+    <node id="118">
+      <data key="d0">Bronislawa KORZEWSKA</data>
+    </node>
+    <node id="Lemberg Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="Erkner">
+      <data key="d1">location</data>
+    </node>
+    <node id="119">
+      <data key="d0">Israel WOLFEErving</data>
+    </node>
+    <node id="Czenstochau Pobt">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sosnowicz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sosnowitz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Groeditz Faulbrück Reichenbach">
+      <data key="d1">location</data>
+    </node>
+    <node id="Göttingen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Zeitzhofen , Schloss lmau Regensburg , Br">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schloss Elmau Gmain">
+      <data key="d1">location</data>
+    </node>
+    <node id="Gmain">
+      <data key="d1">location</data>
+    </node>
+    <node id="120">
+      <data key="d0">Antoni SIEK</data>
+    </node>
+    <node id="Lambiowice">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wamechen">
+      <data key="d1">location</data>
+    </node>
+    <node id="121">
+      <data key="d0">Anna Agnes PFLUG</data>
+    </node>
+    <node id="122">
+      <data key="d0">Feiga HANATOWY</data>
+    </node>
+    <node id="Kossow Ladzki">
+      <data key="d1">location</data>
+    </node>
+    <node id="Polen , jetzt Israel">
+      <data key="d1">location</data>
+    </node>
+    <node id="123">
+      <data key="d0">Theresia WILHELM</data>
+    </node>
+    <node id="Kirchbach">
+      <data key="d1">location</data>
+    </node>
+    <node id="124">
+      <data key="d0">Rachela SZERESZEWSKA</data>
+    </node>
+    <node id="Riga - Kaiserwald">
+      <data key="d1">location</data>
+    </node>
+    <node id="Torfy">
+      <data key="d1">location</data>
+    </node>
+    <node id="Fort 13 Torun">
+      <data key="d1">location</data>
+    </node>
+    <node id="Baraken Torun">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bydgoszcz">
+      <data key="d1">location</data>
+    </node>
+    <node id="125">
+      <data key="d0">Rosa BETTER</data>
+    </node>
+    <node id="Sosnowiec u.Srodula">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hirschberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="Peterswaldau">
+      <data key="d1">location</data>
+    </node>
+    <node id="126">
+      <data key="d0">Heinrich POELL</data>
+    </node>
+    <node id="Düsseldorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="Anrath">
+      <data key="d1">location</data>
+    </node>
+    <node id="Buchenw">
+      <data key="d1">location</data>
+    </node>
+    <node id="127">
+      <data key="d0">Arie BRONSZTEJN</data>
+    </node>
+    <node id="Rowne">
+      <data key="d1">location</data>
+    </node>
+    <node id="128">
+      <data key="d0">Nachum RUBINSTEIN</data>
+    </node>
+    <node id="Rajgrod Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="129">
+      <data key="d0">Moszek CIECIURA</data>
+    </node>
+    <node id="130">
+      <data key="d0">Paolo SFORZINI</data>
+    </node>
+    <node id="131">
+      <data key="d0">Zofia RECH</data>
+    </node>
+    <node id="Sobolowka Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="Sobolowka / Pol">
+      <data key="d1">location</data>
+    </node>
+    <node id="132">
+      <data key="d0">Cortrud ROTHROLZ</data>
+    </node>
+    <node id="Schwersens">
+      <data key="d1">location</data>
+    </node>
+    <node id="Wilmersdorf">
+      <data key="d1">location</data>
+    </node>
+    <node id="133">
+      <data key="d0">Harry NORDON</data>
+    </node>
+    <node id="Dabrowa Gorniczat">
+      <data key="d1">location</data>
+    </node>
+    <node id="Maschewitz b.Breslau">
+      <data key="d1">location</data>
+    </node>
+    <node id="? Zuchth , Taubrik">
+      <data key="d1">location</data>
+    </node>
+    <node id="Annaberg">
+      <data key="d1">location</data>
+    </node>
+    <node id="? Aus">
+      <data key="d1">location</data>
+    </node>
+    <node id="chw">
+      <data key="d1">location</data>
+    </node>
+    <node id="134">
+      <data key="d0">Wilhelm ZUBELZUBEL</data>
+    </node>
+    <node id="135">
+      <data key="d0">Wladyslaw PODSIAD</data>
+    </node>
+    <node id="Zabiebe">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stalag I A">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stablack / Ostpr">
+      <data key="d1">location</data>
+    </node>
+    <node id="Bleden">
+      <data key="d1">location</data>
+    </node>
+    <node id="Insten">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schercheide">
+      <data key="d1">location</data>
+    </node>
+    <node id="Ottapin">
+      <data key="d1">location</data>
+    </node>
+    <node id="Lotnisko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Hunzen">
+      <data key="d1">location</data>
+    </node>
+    <node id="Stalag X">
+      <data key="d1">location</data>
+    </node>
+    <node id="Schleswig">
+      <data key="d1">location</data>
+    </node>
+    <node id="136">
+      <data key="d0">Josef MACHOTKA</data>
+    </node>
+    <node id="137">
+      <data key="d0">Betty Bronia KONSKER</data>
+    </node>
+    <node id="Radomsko">
+      <data key="d1">location</data>
+    </node>
+    <node id="Auschwtz">
+      <data key="d1">location</data>
+    </node>
+    <node id="Neukölln">
+      <data key="d1">location</data>
+    </node>
+    <node id="138">
+      <data key="d0">Mosche KATZ</data>
+    </node>
+    <node id="Tawrick Lit">
+      <data key="d1">location</data>
+    </node>
+    <node id="Swal ( Schaulen ) Lit">
+      <data key="d1">location</data>
+    </node>
+    <node id="139">
+      <data key="d0">Klaus ASCHER</data>
+    </node>
+    <node id="140">
+      <data key="d0">Gittel MILLER</data>
+    </node>
+    <node id="141">
+      <data key="d0">Stefan PUCHALA</data>
+    </node>
+    <node id="Lobodno Klobuck">
+      <data key="d1">location</data>
+    </node>
+    <node id="Krein">
+      <data key="d1">location</data>
+    </node>
+    <node id="Strelin">
+      <data key="d1">location</data>
+    </node>
+    <edge source="1" target="Wiekowo">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="1" target="Weser">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="1" target="Berlin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="1" target="Gniezno">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Berlin" target="38">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Berlin" target="44">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Berlin" target="118">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Berlin" target="139">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="2" target="Laszczow Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="2" target="Laszczow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="2" target="Laszozow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="2" target="Cypern">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="3" target="Wien">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="3" target="Monowitz / Auschwitz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Wien" target="57">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Wien" target="123">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="4" target="Biala Österr">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="4" target="Amsterdam">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="4" target="Angouleme">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="4" target="( Gefängn">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="4" target="Normades">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="4" target="Blechhammer">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Amsterdam" target="68">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Amsterdam" target="75">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Blechhammer" target="23">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="5" target="Warschau">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="5" target="Warschau , Dzielna">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="42">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="63">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="82">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="97">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="99">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="120">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="122">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Warschau" target="127">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="6" target="Einsiedl Böhmen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="6" target="Prag">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="6" target="Sachsenhausen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Sachsenhausen" target="35">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Sachsenhausen" target="48">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="7" target="Rofrano Salerno">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="7" target="Tbe">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="8" target="S Cataldo">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="8" target="Essen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="9" target="Pabianice">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Lods">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Auschwitz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Berlin - Nou - Kölln">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Ravensbrück">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Schweden">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="9" target="Israel">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Pabianice" target="67">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Pabianice" target="137">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="11">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="23">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="24">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="33">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Auschwitz" target="42">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="45">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Auschwitz" target="51">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="60">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="61">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="72">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="74">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="76">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="86">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwitz" target="90">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Auschwitz" target="96">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="13">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="42">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="61">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="96">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="102">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="123">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Ravensbrück" target="137">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Schweden" target="15">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Schweden" target="35">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Israel" target="48">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Israel" target="79">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Israel" target="91">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Israel" target="108">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="10" target="Sulejow Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="10" target="La Cre">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="10" target="Suterene">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="11" target="Lodz Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Lodz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Bergen - Belsen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Salzwedel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Leipheim">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Felda">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="11" target="Canada">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Lodz" target="23">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="44">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="51">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="58">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="67">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="73">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="86">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="87">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="106">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="107">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lodz" target="137">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Bergen - Belsen" target="21">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Bergen - Belsen" target="67">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Bergen - Belsen" target="72">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Salzwedel" target="74">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="12" target="unbek">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="12" target="Augsburg - Haunstetten">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="12" target="Bayern">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Bayern" target="51">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="13" target="Rzeszon Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="13" target="Tarnow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="13" target="Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="13" target="Bassdorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="13" target="Sochnouth n.Israel">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Tarnow" target="35">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Polen" target="38">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Polen" target="100">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Polen" target="108">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="14" target="Jaworze Gorne">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="14" target="Lentersheim">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="15" target="Wilna">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="15" target="Wiina">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="15" target="Loca ZAL">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="15" target="Neustadt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="15" target="Hospital">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="15" target="Ramlösa Sohweden">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="16" target="Zalesie">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="16" target="Niedere">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="16" target="Lippstadt">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="17" target="Budapest">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="17" target="Roechnitz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Budapest" target="21">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Budapest" target="26">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="18" target="Godzischewy">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="18" target="Stalag V B">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="18" target="Stalag V C">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="19" target="Unknown">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="104">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="112">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="113">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="121">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="134">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="136">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Unknown" target="140">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="20" target="Wierzbowiec">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="20" target="Augustdorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="20" target="England">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="21" target="Majesniklovar">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="22" target="Briog">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="22" target="Ostlinde">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="23" target="Gleiwitz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Rudau Krs Ortels burg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Ortels burg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Seliggen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Bialystok">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Brest - Litowsk">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Wch . Ravensbrück">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Wolkenburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="24" target="Weiden">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Bialystok" target="108">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Weiden" target="125">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="25" target="Radom">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="25" target="Senterpart">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Radom" target="102">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Vylok">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Dittrau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Batschkertes">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Stanislawow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Worochta">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Hedes Holon">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="26" target="Gabersee">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="27" target="Moczydlow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="27" target="Nieperwiese">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="27" target="Greifenhagen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="28" target="Italien">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="28" target="Leonberg / Natzweiler">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Italien" target="108">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="29" target="Lodz Radwiliskis">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="29" target="Schaulen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="29" target="Stutthof">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Schaulen" target="41">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Stutthof" target="31">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Stutthof" target="96">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Stutthof" target="103">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="La Spezia">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Vernazza">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Modena">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Bad">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Canstatt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Stoccaroa">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="30" target="Stuttgart">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Stuttgart" target="57">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="31" target="Kowno Lit">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="31" target="Kowno">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="31" target="Narva / Estland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="31" target="Langenhorn , Oxenzoll">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="31" target="Hamburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="31" target="Bergen - elsen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Kowno" target="94">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="32" target="Uln">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="32" target="Schlusogocots">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="32" target="Untorl">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="33" target="Wattenscheid">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="33" target="Zwolle / Holland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="33" target="Oranienburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="33" target="Westerbork / Holl .">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Oranienburg" target="105">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="34" target="Sabyalowitz Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="34" target="Sydlowieo">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="34" target="Sydlowiec">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="34" target="Czenstochau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="34" target="Feldafing">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Czenstochau" target="122">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Czenstochau" target="129">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Feldafing" target="99">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="35" target="Radwan Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="35" target="Radwan">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="35" target="Sohwerin , Lübeck , Schweden">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="35" target="Frankreich">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="36" target="Beuthen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="36" target="Breslau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="36" target="Auschwits">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Breslau" target="58">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschwits" target="48">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="37" target="Czudin Österr">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="37" target="Buchenwald">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Buchenwald" target="81">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Buchenwald" target="103">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Buchenwald" target="105">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="38" target="Warszawa">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="38" target="Deutschland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="38" target="Dulag in LinzI">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="38" target="-">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="38" target="Schöneberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="39" target="Wilno Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="39" target="Wilno / Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="39" target="Kaiserwald">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="39" target="Stutthoff">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="39" target="Fellafing">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Wilno Polen" target="124">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Kaiserwald" target="40">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="40" target="Wilno">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="40" target="Riga">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="40" target="Torun">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="40" target="Bamberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="40" target="München , Klemens">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Wilno" target="52">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Wilno" target="124">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Wilno" target="128">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Riga" target="96">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Riga" target="124">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="41" target="Tauroggen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="41" target="Auschw">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Auschw" target="58">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschw" target="75">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Auschw" target="125">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="42" target="Plonsk Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="42" target="Leipzig">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="42" target="Bayreuth">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Leipzig" target="92">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="43" target="Bendzin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="43" target="Parschnitz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="43" target="Föhrenwald">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Föhrenwald" target="110">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="45" target="Rom">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="45" target="Rom n.Regina Coeli">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="45" target="Fossoli di Carpi">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="46" target="Peruska Jugosl Dighano d">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="46" target="Dighano d  Istria , Pola">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="46" target="Dachau">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Dachau" target="53">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Dachau" target="76">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Dachau" target="80">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Dachau" target="95">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Dachau" target="138">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="47" target="Gdynia">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="47" target="Gdynia Orlowa">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="47" target="Czestochowa">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="47" target="Wielinsko">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="48" target="Kassa Ung">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="48" target="Bekescs">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="48" target="Ravensbrück , Berlin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="48" target="Ungarn">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="49" target="GorPrimosoa- Krsko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="49" target="Selingenporten">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="50" target="Noikirch">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="50" target="Ostpreußen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="51" target="München">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="51" target="Zbaszyn">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="51" target="Birnbäumel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="51" target="Fürth /">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="51" target="USA">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="München" target="74">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="München" target="82">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="USA" target="62">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="USA" target="119">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="52" target="Wiano">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="53" target="Torino">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="54" target="Petrymozy">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="54" target="Wala i.Drenkfurt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="54" target="Hajracz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="54" target="Babcyn">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="54" target="Rastenburg">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="55" target="Zamosce Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="55" target="Zamosz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="55" target="Bielefeld">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="55" target="Ziegenhain">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="56" target="Veldzigs">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="56" target="Biomaroke">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="56" target="Marburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="56" target="Bove">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="57" target="Zelgoszcz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="58" target="Lo dz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="58" target="Langbilau , Hundsfeld">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="58" target="Rosen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="58" target="Mauth . Berg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="58" target="Bels">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="59" target="Hodonin Mähren">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="59" target="Gladbach">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="59" target="Thereseist">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="60" target="Ozd">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="60" target="Putnok">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="60" target="Diosgyor">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="60" target="Auschwits , Birkenau , Ziglg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="60" target="Plaschow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="60" target="Kratzau">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="61" target="Pecs Ung">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="61" target="Neustadt b . Coburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="61" target="Gut Neuhof">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="62" target="Bielitz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="62" target="Kamien - Kassyrske">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="62" target="Bremerhaven">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="62" target="Lemberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="62" target="Janow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="62" target="Schweidnitz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Lemberg" target="103">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Lemberg" target="118">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="63" target="Bychanz Bychawa Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="63" target="Poniatow , Biala - Podlaska">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="63" target="Majdanek">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="63" target="Kaufering">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="63" target="Landsberg / Lech">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Majdanek" target="71">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Majdanek" target="76">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Majdanek" target="122">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="64" target="Soltysy">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="64" target="Neundorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="64" target="Bunzlau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="64" target="Nowa Wies">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="64" target="Boleslawiec">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="65" target="Kolonia Warpuny">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="65" target="Sorkwity">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="66" target="Geleen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="66" target="Wieckrath / Wieckenrath / Heim">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="67" target="Skerez Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="67" target="Auschw.n.Harburg - Sasel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="68" target="Westerbork">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="68" target="Sobibor">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Westerbork" target="75">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="69" target="Brzezno">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="69" target="Nebrowo Maly">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="70" target="Seret Rum">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="70" target="Seret">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="70" target="Ukra">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="70" target="ina Jurin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="70" target="Jurin">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="71" target="Gorzkow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="71" target="Hasenhecko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="71" target="Kassel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Kassel" target="77">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="72" target="Rachow CSR">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="72" target="Nierjesch">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="72" target="Plaszow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="72" target="Auschwitz , Wisau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="73" target="Donenberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="73" target="Warnow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="73" target="Wollin / Pommern">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="74" target="Boharavice CSR">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="74" target="Boharavice">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="75" target="Herzogenbus">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="75" target="Vught / Holl">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="75" target="Ravensbrueck">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="75" target="Malchow">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="76" target="Sokoly Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="76" target="Lapy">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="76" target="Bialeston">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="76" target="Bliczin - Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="76" target="Landsberg /">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="76" target="Lech">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="77" target="Hohensalza , Inowroclaw">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="77" target="Minsk">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="78" target="Tupingen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="78" target="Soltau">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="79" target="Krasno Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="79" target="Krasno">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="79" target="Eschwege">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="79" target="Ulm - Dornstadt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Eschwege" target="119">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Vronsko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Vronoko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Natavoiler">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Koohon / Mosel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Sopt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="80" target="Hoilbronn">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="81" target="Glatz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="83" target="Ohlen odBreslau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="83" target="Breslau / Theresienst">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="84" target="Flehingen bei Bretten">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="84" target="Bretten">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="84" target="Bayerthal">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="84" target="Gurs">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="84" target="Rivesaltes">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="84" target="Osten">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="85" target="Poniewierz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="86" target="Habielica">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="poln">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="Belhatov">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="Bremen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="Berg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="/">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="86" target="Belsen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="87" target="Prodoll">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="87" target="Wildek">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="87" target="Schneidemühl">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="87" target="Nigoldz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="87" target="Klauzdorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="87" target="Mogilno">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="88" target="Pinsk">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="89" target="Piovene Rocchettat">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="89" target="Stalag">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="89" target="Wuppertal - Barmen , Schönbercher">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="90" target="B PChmielnik">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="90" target="Gerafeld">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="90" target="Fulda">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Harlau Raum">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Bukarest">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Ungarn , Österr.Deutschld .">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Italion">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Neapel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="91" target="Sohiff">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="92" target="Alounga Lipani Lettland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="92" target="Gren . Ausb">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="92" target="Liepaja">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="92" target="Salaspils">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="93" target="Osnabrück">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="93" target="Kempfraum Jassy / Rumänien">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="93" target="Feldgericht">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="93" target="Korpa">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="93" target="kelhausenkaserne">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="94" target="Schauel Wilkonir">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="Mir">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="Stutt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="hof , Marionburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="Elbingen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="China">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="94" target="Wilkomir">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="95" target="Mlawe Poland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="95" target="Germany">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="96" target="Abaujker Ung">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Kosice">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Kurbe">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Dundage">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Gloewen b.Oranienburg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Danzig">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="96" target="Müritz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Danzig" target="139">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="97" target="Majdanek - Lublin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="97" target="Bu">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="98" target="Rotterdam Holland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Barneveld / llolland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Westerbork / Holland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Auschwitz - Birkenau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Weisswasser / CS">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Holland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="98" target="Palästina">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Auschwitz - Birkenau" target="106">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="100" target="Neckar Bischofsheim">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="100" target="Niedermendig">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="100" target="Mayen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="101" target="LEUDELINGEN Luxb">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="101" target="Ems">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="102" target="Kozlow Radom">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="102" target="Bafr.-Sahwed">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="102" target="Siarishaan , Ronneby , Betna - Ecke">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="102" target="Norrköping , Linköping">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="102" target="Jönköping">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="103" target="Wasziliszki">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="103" target="Wasziliszk">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="103" target="Lida">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="103" target="Walde">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="103" target="dermichl d.Engun / Brüssel">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="105" target="Stradniapeca">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="105" target="Ung.u. Rumin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="105" target="Ordruf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="105" target="Krawinkel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="105" target="Minkisu">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="106" target="Wielicza Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="106" target="Mauthausen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="106" target="uns">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="107" target="Garbalin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="107" target="Dtschl">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="107" target="Simer">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="107" target="Hilczaj , Bez . Koblenc">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="108" target="Zambrow Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="108" target="Wysokie Maz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="108" target="Hochsom">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="109" target="Lodz Polen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="109" target="Podkowa Legna">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="109" target="Warschen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="109" target="Pruszkow">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="110" target="Sosnowiec">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="110" target="Sosnowiec , Greben , Gabendorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="111" target="Kalin CSR">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="111" target="dmezo Vasarhely">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="111" target="Bor Jugoslovia">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="111" target="Ampfing">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="114" target="Most Brüx">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="114" target="Falkenau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="114" target="Karlovy Vary">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="114" target="Cheb / Eger">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="114" target="Aichach / Bayern">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="114" target="Schrobenhausen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="115" target="Ujsoly">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Korfantow">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Kietrza">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Dulag Raciborz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Pogrzebien">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Friedland">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="115" target="Rajcza">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="116" target="unbekannt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="116" target="Flossenbürg">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="unbekannt" target="130">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="Flossenbürg" target="130">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="117" target="Aachen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="117" target="Gerichts">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="117" target="Hamm">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="117" target="Wolfenbüttel">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="117" target="IV Oberlangen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="118" target="Lemberg Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="118" target="Erkner">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Czenstochau Pobt">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Sosnowicz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Sosnowitz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Groeditz Faulbrück Reichenbach">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Göttingen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Zeitzhofen , Schloss lmau Regensburg , Br">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Schloss Elmau Gmain">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="119" target="Gmain">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="120" target="Lambiowice">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="120" target="Wamechen">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="122" target="Kossow Ladzki">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="122" target="Polen , jetzt Israel">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="123" target="Kirchbach">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="124" target="Riga - Kaiserwald">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="124" target="Torfy">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="124" target="Fort 13 Torun">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="124" target="Baraken Torun">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="124" target="Bydgoszcz">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="125" target="Sosnowiec u.Srodula">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="125" target="Hirschberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="125" target="Peterswaldau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="126" target="Düsseldorf">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="126" target="Anrath">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="126" target="Buchenw">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="Buchenw" target="133">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="127" target="Rowne">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="128" target="Rajgrod Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="131" target="Sobolowka Pol">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="131" target="Sobolowka / Pol">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="132" target="Schwersens">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="132" target="Wilmersdorf">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="133" target="Dabrowa Gorniczat">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="133" target="Maschewitz b.Breslau">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="133" target="? Zuchth , Taubrik">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="133" target="Annaberg">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="133" target="? Aus">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="133" target="chw">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Zabiebe">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Stalag I A">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Stablack / Ostpr">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Bleden">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Insten">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Schercheide">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Ottapin">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Lotnisko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Hunzen">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Stalag X">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="135" target="Schleswig">
+      <data key="d2">destination</data>
+    </edge>
+    <edge source="137" target="Radomsko">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="137" target="Auschwtz">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="137" target="Neukölln">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="138" target="Tawrick Lit">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="138" target="Swal ( Schaulen ) Lit">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="141" target="Lobodno Klobuck">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="141" target="Krein">
+      <data key="d2">origin</data>
+    </edge>
+    <edge source="141" target="Strelin">
+      <data key="d2">destination</data>
+    </edge>
+  </graph>
+</graphml>
